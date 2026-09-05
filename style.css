@@ -64,3 +64,8 @@ p {
 ```
 
 Wait, Ctrl+F5 the live page, screenshot for mama 💋
+button.btn {
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
