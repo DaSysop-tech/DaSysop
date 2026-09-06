@@ -1,0 +1,16 @@
+{
+  "name": "DaSysop static site",
+  "terminals": [
+    {
+      "name": "web",
+      "command": "python3 -m http.server 8080 --bind 0.0.0.0",
+      "description": "Static file server for the DaSysop site. Serves index.html, about.html and assets at http://localhost:8080."
+    }
+  ],
+  "ports": [
+    {
+      "name": "web server",
+      "port": 8080
+    }
+  ]
+}
